@@ -65,7 +65,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'comercio/bundle.js',
-		publicPath: './comercio/'
+		publicPath: '/comercio/'
 	},
 	mode: 'development',
 	resolve: {
